@@ -1,0 +1,18 @@
+.deatails {
+  background-color: #c4cac7;
+  width: 100%;
+  padding: 15px;
+  border-radius: 15px;
+}
+.title {
+  font-size: 30px;
+  font-weight: 400;
+}
+.subtitle {
+  font-size: 25px;
+  font-weight: 300;
+}
+.text {
+  font-size: 22px;
+  font-weight: 300;
+}

@@ -1,0 +1,10 @@
+.cardGame {
+  width: 100%;
+}
+.cardGameTitle {
+  background-color: #919497;
+  color: aliceblue;
+  font-weight: 300;
+  padding: 10px 0;
+  text-align: center;
+}

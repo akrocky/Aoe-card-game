@@ -1,0 +1,20 @@
+.searchTitle {
+  font-weight: 500;
+}
+
+select {
+  width: 40%;
+  padding: 4px;
+  background-color: rgb(197, 196, 189);
+}
+select:enabled {
+  outline: none;
+}
+.controlsContent {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+.btn {
+  padding: 4px 30px;
+}

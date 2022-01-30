@@ -1,0 +1,15 @@
+.card {
+  background-color: #c4cac7;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+}
+
+.textEllisis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.btn {
+  background-color: #c0c0c0;
+}
