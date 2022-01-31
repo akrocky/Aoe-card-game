@@ -14,7 +14,7 @@ const CardGame = () => {
         "https://raw.githubusercontent.com/akrocky/player-info-json/main/Player.JSON"
       );
       const result = await res.json();
-      dispatch({ type: "fetch", payload: result });
+      dispatch({ type: "FETCH", payload: result });
     }
     loadData();
   }, []);

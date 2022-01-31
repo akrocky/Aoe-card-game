@@ -16,10 +16,10 @@ const Controls = () => {
             <div className={classes.controlsContent}>
             <div  className='my-3 d-flex justify-content-between'>
            
-                <button className={classes.btn}  onClick={e=>dispatch({ type: "asc"})} >ASC</button>
+                <button className={classes.btn}  onClick={e=>dispatch({ type: "ASC"})} >ASC</button>
                
                 
-                <button className={classes.btn} onClick={e=>dispatch({ type: "dsc", })} >DESC</button>
+                <button className={classes.btn} onClick={e=>dispatch({ type: "DSC", })} >DESC</button>
                 
              
                 

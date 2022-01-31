@@ -10,7 +10,7 @@ const Player = ({ player: { id, playerName, realName, asset } }) => {
   const hanldeDetails = () => {
     if (btnText === "See Deatails") {
       dispatch({
-        type: "details",
+        type: "DETAILS",
         payload: {
           id,
           playerName,
@@ -22,7 +22,7 @@ const Player = ({ player: { id, playerName, realName, asset } }) => {
       setBtnText("Hide Details");
     } else {
       dispatch({
-        type: "removeDetails",
+        type: "REMOVEDETAILS",
       });
 
       setBtnText("See Deatails");

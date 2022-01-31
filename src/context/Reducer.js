@@ -1,25 +1,25 @@
  const cardReducer = (state, action) => {
     switch (action.type) {
 
-        case "fetch":
+        case "FETCH":
         
         return{
             ...state,playerCards:action.payload
         }
-        case "asc":
+        case "ASC":
             return { ...state, playerCards : state.playerCards?.sort((a, b) =>  a.playerName.toLowerCase().localeCompare(b.playerName.toLowerCase()))}
                   
-        case "dsc":
+        case "DSC":
             return { ...state, playerCards : state.playerCards?.sort((a, b) =>  b.playerName.toLowerCase().localeCompare(a.playerName.toLowerCase()))}
 
-     case "details":
+     case "DETAILS":
                     return { ...state, cardDeatails:{
                         id:action.payload.id, 
                         playerName:action.payload.playerName,
                          realName:action.payload.realName,
                           asset:action.payload.realName
                     } }
-     case "removeDetails":
+     case "REMOVEDETAILS":
                     return { ...state, cardDeatails:{}}
         
   
